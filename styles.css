@@ -1,25 +1,16 @@
 @import url("https://use.typekit.net/hqh8zfz.css");
 
 body{
-    background-color: rgb(49, 49, 49);
-    color: whitesmoke; 
-}
-
-a{
-    font-size: 30px;
-    color: white;
-    text-decoration: none;
-}
-
-.p1{
-    text-align: right;
-}
-
-.p8{
-    text-align: left;
-}
-
-.zine{
+    background-image: url('img/error.gif');
     text-align: center;
     justify-content: center;
+    background-color: rgb(49, 49, 49);
+    display: flex; 
+}
+
+.yes a{
+    z-index: 10;
+    top: 50%;
+    color: red;
+    right: 50px;
 }
