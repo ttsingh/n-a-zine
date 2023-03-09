@@ -1,11 +1,12 @@
 @import url("https://use.typekit.net/hqh8zfz.css");
 
 body{
-    background-image: url('img/error.gif');
-    text-align: center;
-    justify-content: center;
     background-color: rgb(49, 49, 49);
     display: flex; 
+}
+
+.zine{
+    
 }
 
 .yes a{
