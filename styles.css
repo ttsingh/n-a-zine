@@ -6,7 +6,8 @@ body{
 }
 
 .zine{
-    
+    text-align: center;
+    justify-content: center;
 }
 
 .yes a{
