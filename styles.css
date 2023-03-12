@@ -10,9 +10,6 @@ body{
     justify-content: center;
 }
 
-.yes a{
-    z-index: 10;
-    top: 50%;
-    color: red;
-    right: 50px;
+.page1{
+    
 }
