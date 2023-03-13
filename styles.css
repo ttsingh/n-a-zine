@@ -11,5 +11,6 @@ body{
 }
 
 .page1{
-    
+    background-color: rgb(49, 49, 49);
+    display: flex; 
 }
