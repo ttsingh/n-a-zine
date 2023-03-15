@@ -10,7 +10,12 @@ body{
     justify-content: center;
 }
 
-.page1{
+#page1{
     background-color: rgb(49, 49, 49);
     display: flex; 
+}
+
+.zoom{
+    text-align: center;
+    justify-content: center;
 }
