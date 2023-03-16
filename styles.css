@@ -19,3 +19,12 @@ body{
     text-align: center;
     justify-content: center;
 }
+
+.page1{
+    background-color: black;
+}
+
+.ms{
+    justify-content: center;
+    text-align: center;
+}
