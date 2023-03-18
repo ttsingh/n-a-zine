@@ -5,23 +5,24 @@ body{
     display: flex; 
 }
 
-.zine{
-    text-align: center;
+.error{
     justify-content: center;
+    text-align: center;
+    z-index: 0;
 }
 
-#page1{
+.page1{
     background-color: rgb(49, 49, 49);
     display: flex; 
 }
 
-.zoom{
-    text-align: center;
-    justify-content: center;
-}
-
-.page1{
-    background-color: black;
+.yes{
+    position: absolute;
+    z-index: 10;
+    color: red;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
 }
 
 .mspaint{
