@@ -112,3 +112,9 @@ body{
     text-decoration: none;
     color: #aaa;
 }
+
+.tv{
+    justify-content: center;
+    text-align: center;
+    z-index: 0;
+}
