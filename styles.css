@@ -11,26 +11,104 @@ body{
     z-index: 0;
 }
 
-.page1{
-    background-color: rgb(49, 49, 49);
-    display: flex; 
-}
-
 .yes{
     position: absolute;
     z-index: 10;
-    color: red;
     font-size: 30px;
-    top: 50%;
-    left: 50%;
+    top: 67%;
+    left: 41%;
+    opacity: 0;
 }
 
-.mspaint{
+.no{
+    position: absolute;
+    z-index: 10;
+
+    font-size: 30px;
+    top: 67%;
+    left: 53%;
+    opacity: 0;
+}
+
+.ms{
     justify-content: center;
     text-align: center;
+    z-index: 0;
+}
+
+.delete{
+    position: absolute;
+    z-index: 10;
+    top: 63%;
+    left: 3%;
+    font-family: 'hydrophilia-iced', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.delete a{
+    text-decoration: none;
+    color: black;
+}
+
+.delete a:hover{
+    text-decoration: underline 1.5px black;
+}
+
+.save{
+    position: absolute;
+    z-index: 10;
+    top: 116%;
+    left: 88%;
+    font-family: 'hydrophilia-iced', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.save a{
+    text-decoration: none;
+    color: black;
+}
+
+.save a:hover{
+    text-decoration: underline 1.5px black;
 }
 
 .hack{
     justify-content: center;
     text-align: center;
+    z-index: 0;
+}
+
+.press{
+    position: absolute;
+    z-index: 10;
+    top: 93%;
+    left: 63%;
+    font-family: 'hydrophilia-iced', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.press a{
+    text-decoration: none;
+    color: #aaa;
+}
+
+.cross{
+    position: absolute;
+    z-index: 10;
+    top:4%;
+    left: 8%;
+    font-family: 'hydrophilia-iced', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+}
+
+.cross a{
+    text-decoration: none;
+    color: #aaa;
 }
