@@ -5,6 +5,9 @@ body{
     display: flex; 
 }
 
+
+/** index **/
+
 .error{
     justify-content: center;
     text-align: center;
@@ -29,6 +32,8 @@ body{
     left: 53%;
     opacity: 0;
 }
+
+/** page 1 **/
 
 #page1{
     background-color: #c0c0c0;
@@ -60,6 +65,31 @@ body{
 .save-msg img:hover{
     transform: scale(0.7);
 }
+
+.paint-nav h2{
+    position: absolute;
+    font-family: "lores-22-serif", sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    color: red;
+    z-index: 10;
+    left: 5%;
+    top: 6%;
+
+}
+
+.hoverable:hover::before{
+    content: attr(title);
+    position: absolute;
+    top: 150%;
+    left: 10%;
+    padding: 10%;
+    color: black;
+    background: #c0c0c0;
+    border: 1px black solid;
+}
+
+/** page 2 **/
 
 .page2{
     background-color: black;
