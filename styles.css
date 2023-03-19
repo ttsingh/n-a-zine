@@ -264,25 +264,6 @@ body{
     transform: scale(0.8);
 }
 
-.tv-cont{
-    position: absolute;
-    z-index: 10;
-    top: 41%;
-    left: 11%;
-    color: transparent;
-    font-family: "jeanne-moderno-ultra", serif;
-    font-size: 103px;
-    line-height: 9px;
-    
-    font-style: italic;
-    text-align: center;
-}
-
-.tv-cont:hover{
-    color: rgb(255, 200, 0);
-    opacity: 90%;
-    
-}
 
 /** page 5 **/
 
