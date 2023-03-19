@@ -76,6 +76,10 @@ body{
     text-decoration: underline 1.5px black;
 }
 
+.page2{
+    background-color: black;
+}
+
 .hack{
     justify-content: center;
     text-align: center;
