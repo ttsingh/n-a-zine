@@ -301,11 +301,11 @@ body{
     z-index: 10;
     color: transparent;
     left: 35%;
-    top: 89%;
+    top: 85%;
     text-align: left;
+    font-family: "video-cond", serif;
     font-size: 35px;
     font-style: normal;
-    font-family: "jeanne-moderno-geometrique", sans-serif;
 }
 
 .vhs-content h1:hover{
