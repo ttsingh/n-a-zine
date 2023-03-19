@@ -231,6 +231,7 @@ body{
 
 .mp-content h2:hover{
     color: rgb(255, 230, 0);
+    transform: scale(0.89);
 }
 
 /** page 4 **/
@@ -301,21 +302,26 @@ body{
     color: transparent;
     left: 35%;
     top: 89%;
-    text-align: center;
+    text-align: left;
     font-size: 35px;
-    font-family: "lores-22-serif", sans-serif;
-    font-style: oblique;
+    font-style: normal;
+    font-family: "jeanne-moderno-geometrique", sans-serif;
 }
 
-.vhs-cont:hover{
-    background-color: bisque;
-    color: black;
+.vhs-content h1:hover{
+    color: white
 }
 
-.vhs-cont:hover{
-    opacity: 30%;
+.vhs-content h1:hover{
+    opacity: 37%;
+}
+.vhs-content h2:hover{
+    color: white
 }
 
+.vhs-content h2:hover{
+    opacity: 37%;
+}
 /**page 6**/
 
 .gamebck{
@@ -345,17 +351,36 @@ body{
     transform: scale(0.95);
 }
 
-.gameb-cont{
+.gameb-content{
     position: absolute;
     z-index: 10;
-    top: 25%;
-    color: transparent;
-    font-size: 30px;
-    left: 20%;
+    top: 30%;
+    color: #a4a4a4;
+    font-size: 23px;
+    left: 23%;
     font-family: "lores-22-serif", sans-serif;
-    font-style: normal;
+    font-style: oblique;
+    line-height: 15px;
 }
 
-.gameb-cont h1:hover{
+.gameb-content h1:hover{
     color: green;
+    background-color: #a4a4a4;
+}
+
+.gameb-contentt{
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    color: #a4a4a4;
+    font-size: 23px;
+    left: 37%;
+    font-family: "lores-22-serif", sans-serif;
+    font-style: oblique;
+    line-height: 15px;
+}
+
+.gameb-contentt h2:hover{
+    color: orangered;
+    background-color:#a4a4a4;
 }
