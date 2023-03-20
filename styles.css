@@ -384,3 +384,55 @@ body{
     color: orangered;
     background-color:#a4a4a4;
 }
+
+
+/** page 7 **/
+.page7{
+    background-color: black;
+}
+
+.sun-b{
+    justify-content: center;
+    text-align: center;
+    z-index: 0;
+}
+
+.sun-n{
+    position: absolute;
+    z-index: 10;
+    top: 121%;
+    left: 5%;
+    font-family: "lores-22-serif", sans-serif;
+    font-size: 31px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.sun-n a{
+    color: rgb(0, 197, 157);
+    text-decoration: none;
+}
+.sun-n a:hover{
+    color: whitesmoke;
+}
+
+
+.sun-d{
+    position: absolute;
+    z-index: 10;
+    top: 121%;
+    left: 90%;
+    font-family: "lores-22-serif", sans-serif;
+    font-size: 31px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.sun-d a{
+    color: rgb(255, 34, 0);
+    text-decoration: none;
+}
+
+.sun-d a:hover{
+    color: whitesmoke;
+}
